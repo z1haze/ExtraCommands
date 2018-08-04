@@ -1,0 +1,22 @@
+name: ExtraCommands
+version: @version@
+main: me.stephenhendricks.extracommands.ExtraCommands
+authors: [z1haze]
+description: Adds various extra command based functionality to the standard server experience
+api-version: 1.13
+commands:
+  heal:
+    description: Heal a player back to full health
+    usage: /<command>
+    permission: extracommands.heal
+    permission-message: You don't have the <permission> permission
+  feed:
+    description: Feed a player back to full hunger
+    usage: /<command>
+    permission: extracommands.feed
+    permission-message: You don't have the <permission> permission
+  fly:
+    description: Toggle player flying mode
+    usage: /<command>
+    permission: extracommands.fly
+    permission-message: You don't have the <permission> permission
